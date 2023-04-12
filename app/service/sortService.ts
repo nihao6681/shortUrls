@@ -2,6 +2,7 @@ import { Service } from "egg";
 export default class SortService extends Service{
     model:any
     constructor(e){
+        
         super(e)
         this.model = this.ctx.model.ShortUrlModel
     }
